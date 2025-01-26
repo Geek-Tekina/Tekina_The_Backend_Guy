@@ -11,3 +11,18 @@
   - Hello World in Js cum Node
   - Data types & Variables
   - Operators
+
+---
+
+#### Day 2
+
+- There are 4 pillars of JS - `Coercion`, `Scopes`, `Async Features of JS` and` Class and objects`.
+
+  ##### Topics Covered
+
+  - Conditional Statements, break, continue, switch
+  - Functions ( a fnc returns `undefined` by default in JS)
+  - Coercion and abstract operations - https://262.ecma-international.org/#sec-abstract-operations
+  - Read about `Add, Minus operators` and See `ToNumber(), ToString()` abstract operatoins.
+  - See case where number - object, number + object is there !! and two fncs `toString() and valueOf()`
+  - NaN

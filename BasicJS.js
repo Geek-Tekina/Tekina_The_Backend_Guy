@@ -14,10 +14,19 @@ console.log(0, -0);
 console.log(typeof "A"); // type of : returns a string based on data type passed to it
 
 process.stdout.write("Hey");
-process.stdout.write("Peeps"); // this to write without a line break in node
+process.stdout.write("Peeps\n\n"); // this to write without a line break in node
 
 // -------------------------------------------------------------------------------------
 // variables
 let a = 10;
 var b = "Hello";
 const pi = 3.14;
+
+// Functions
+function add(a, b) {
+  return a + b;
+}
+console.log(add(4, 5));
+
+var x = console.log; // we can store functions as well
+x("Hey");
