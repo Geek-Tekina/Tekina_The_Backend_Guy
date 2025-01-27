@@ -32,3 +32,9 @@
 #### Day 3
 
 - Revised Coercion
+
+  ##### Topics Covered
+
+  - `ToPrimitive()` and inbuilt two functions for obj in JS - 1. `toString()` 2. `valueOf()`
+  - `ToBoolean()` abstract operator
+  - `==` and `===` operators

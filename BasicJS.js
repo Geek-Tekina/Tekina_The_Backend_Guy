@@ -30,3 +30,5 @@ console.log(add(4, 5));
 
 var x = console.log; // we can store functions as well
 x("Hey");
+
+// Imp -> Both == and === checks type.
