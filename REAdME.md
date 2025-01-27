@@ -26,3 +26,9 @@
   - Read about `Add, Minus operators` and See `ToNumber(), ToString()` abstract operatoins.
   - See case where number - object, number + object is there !! and two fncs `toString() and valueOf()`
   - NaN
+
+---
+
+#### Day 3
+
+- Revised Coercion
