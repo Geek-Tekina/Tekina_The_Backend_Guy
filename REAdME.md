@@ -38,3 +38,10 @@
   - `ToPrimitive()` and inbuilt two functions for obj in JS - 1. `toString()` 2. `valueOf()`
   - `ToBoolean()` abstract operator
   - `==` and `===` operators
+
+---
+
+#### Day 4
+
+- Abstract Equality in detail.
+- `NaN` Not a Number - It is the only primitive that does not follows identity property and is not equal to itself.

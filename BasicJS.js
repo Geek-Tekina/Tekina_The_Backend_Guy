@@ -32,3 +32,20 @@ var x = console.log; // we can store functions as well
 x("Hey");
 
 // Imp -> Both == and === checks type.
+
+// Abstract Equailty Operator ==
+
+console.log(10 == "10"); // true, as ToNumber() is called on '10'
+console.log("10" == 10); // true
+
+console.log(true === 10); // false
+
+console.log(
+  10 ==
+    {
+      a: 12,
+      valueOf() {
+        return 10; // this is true, as ToPrimitive() is called on obj, and then valueOf() is called
+      },
+    }
+);
