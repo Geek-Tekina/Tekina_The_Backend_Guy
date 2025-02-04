@@ -45,3 +45,9 @@
 
 - Abstract Equality in detail.
 - `NaN` Not a Number - It is the only primitive that does not follows identity property and is not equal to itself.
+
+#### Day 5
+
+- `isNan()` function checks for anything that is not a number and returns true, a string passed will also be called NAN by this function.
+  Solution : Use `Number.isNan()` this always gives true only when true is passed.
+- Boxing
