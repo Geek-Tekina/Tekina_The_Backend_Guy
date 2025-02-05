@@ -46,8 +46,29 @@
 - Abstract Equality in detail.
 - `NaN` Not a Number - It is the only primitive that does not follows identity property and is not equal to itself.
 
+---
+
 #### Day 5
 
 - `isNan()` function checks for anything that is not a number and returns true, a string passed will also be called NAN by this function.
   Solution : Use `Number.isNan()` this always gives true only when true is passed.
 - Boxing
+
+---
+
+#### Day 6
+
+##### Topics Covered
+
+- Scopes in JS - 3 types, global, function and block
+- let, var and const
+- Auto Globals `(work only for declarations in excecution phase)`
+- If you don't want your code to create auto globals, `"use strict";` is used.
+- Lexical Scpoing
+- Hoisting - `this is because of compilation phase (where scopes are assgined to variables and functions ), where all the formal declarations are first seen in this phase, and then in excution phase, it is available in complete scope`
+- IIFE - Immediately Invoked Function expression
+  ```js
+  (function () {
+    // code inside the function
+  })();
+  ```
