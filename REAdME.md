@@ -72,3 +72,9 @@
     // code inside the function
   })();
   ```
+
+---
+
+#### Day 7
+
+- `Function Expressions` - 2 types Named and Anonymous
