@@ -78,3 +78,12 @@
 #### Day 7
 
 - `Function Expressions` - 2 types Named and Anonymous
+
+---
+
+#### Day 8
+
+- `setTimeout() and setInterval()` fncs
+- Closures
+
+---
