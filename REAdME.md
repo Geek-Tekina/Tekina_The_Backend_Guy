@@ -87,3 +87,10 @@
 - Closures
 
 ---
+
+#### Day 9
+
+- Async Nature of JS
+- Node Runtime and features
+- Event Loop and Code excetion in Node Runtime
+- Callback queues, micro and macro queues
