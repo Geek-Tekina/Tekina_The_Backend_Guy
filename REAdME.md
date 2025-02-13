@@ -94,3 +94,15 @@
 - Node Runtime and features
 - Event Loop and Code excetion in Node Runtime
 - Callback queues, micro and macro queues
+
+---
+
+#### Day 10
+
+- Behaviour of console.log()
+- Website for visuallizing Event loop - `http://latentflip.com/loupe/?code=Cgpjb25zb2xlLmxvZygiUGFydCBBIik7CgpzZXRUaW1lb3V0KGZ1bmN0aW9uIHRpbWVvdXQoKSB7CiAgICBjb25zb2xlLmxvZygiUGFydCBDIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIlBhcnQgQSIpOw%3D%3D!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D`
+- Disadvantages of Callbacks
+  - Call back hell
+  - Has `Inversion Of Control` (IOC Principle) problem, we do not have control over our callback fnc, we depend upon the internal implementation where out callback is being called.
+- console.log() with obj in browser - unexpected behaviour
+- `Promises`
