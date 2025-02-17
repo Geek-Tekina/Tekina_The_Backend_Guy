@@ -106,3 +106,11 @@
   - Has `Inversion Of Control` (IOC Principle) problem, we do not have control over our callback fnc, we depend upon the internal implementation where out callback is being called.
 - console.log() with obj in browser - unexpected behaviour
 - `Promises`
+
+---
+
+#### Day 11
+
+- Creation of Promises
+
+---
